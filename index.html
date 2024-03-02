@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxe Taste Atlas</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- bs css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- bs-icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm" id="navbar">
+      <a class="navbar-brand" href="#" id="logo"
+        ><img src="./images/logo_og.png" class="mt-3"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link text-black fs-6 fw-bolder"
+              aria-current="page"
+              href="#"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fs-6 fw-bolder" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fs-6 fw-bolder" href="#order"
+              >Order</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fs-6 fw-bolder" href="#review"
+              >Reviews</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-black fs-6 fw-bolder" href="#contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control-sm me-2 rounded-5"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-danger p-2" id="btn" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- home-section -->
+    <section
+      class="home mt-5 w-100 h-100 d-flex justify-content-center align-items-center position-relative flex-wrap"
+      id="home"
+    >
+      <div class="home-content">
+        <h3>
+          Embark on a <span class="text-danger">Gourmet</span> Journey:<br />
+          <span class="text-danger"> Luxe Taste Atlas</span>
+        </h3>
+        <p>
+          Your passport to exquisite global cuisine. Explore the world's finest
+          flavors, meticulously curated for the discerning palate. Indulge in
+          culinary opulence at its finest.
+        </p>
+        <a href="#our-menu" class="text-decoration-none btn btn-danger"
+          >Our Menu</a
+        >
+      </div>
+      <div class="img">
+        <img src="./images/image 46.png" alt="" class="img-fluid" />
+      </div>
+    </section>
+
+    <!-- top-section -->
+    <div class="top-section">
+      <h5 class="text-center">WHAT WE SERVE</h5>
+      <h3 class="text-center fw-bolder">
+        Your Favourite Food Delivery Partner
+      </h3>
+      <div class="row mt-4 align-items-center">
+        <div class="col-md-4 py-md-0">
+          <div class="card border-0">
+            <img src="./images/img1.png" class="m-auto" alt="..." />
+            <div class="card-body text-center">
+              <h1 class="fs-4 fw-bolder">Easy To Order</h1>
+              <p>You only need a few steps in ordering food</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-md-0">
+          <div class="card border-0">
+            <img src="./images/img2.png" class="m-auto" alt="..." />
+            <div class="card-body text-center">
+              <h1 class="fs-4 fw-bolder">Fastest Delivery</h1>
+              <p>You only need a few steps in ordering food</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-md-0">
+          <div class="card border-0">
+            <img src="./images/img3.png" class="m-auto" alt="..." />
+            <div class="card-body text-center">
+              <h1 class="fs-4 fw-bolder">Best Quality</h1>
+              <p>You only need a few steps in ordering food</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- our menu -->
+    <section class="menu" id="menu">
+      <h3 class="text-center text-danger">Menu</h3>
+      <h2 class="text-center fw-bolder">
+        Delicious Dishes Is Here
+        <i class="bi bi-arrow-down text-danger fw-bolder"></i>
+      </h2>
+
+      <div class="row mt-5">
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="./images/beef_tenderloin_medallions.jpeg" />
+            <div class="card-body">
+              <h3 class="text-danger">Beef Tenderloin Medallions</h3>
+              <h6>
+                Thick, juicy beef cuts, seared crispy outside, pink inside,
+                served with savory sauce.
+              </h6>
+              <div class="rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="fw-bolder">
+                $40 <i class="bi bi-credit-card text-danger float-end"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="./images/duck_leg.jpeg" />
+            <div class="card-body">
+              <h3 class="text-danger">Duck Confit</h3>
+              <br />
+              <h6>
+                Tender, flavorful duck leg cooked in its own fat for a rich and
+                indulgent taste.
+              </h6>
+              <br />
+              <div class="rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="fw-bolder">
+                $45 <i class="bi bi-credit-card text-danger float-end"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="./images/black_pasta.jpeg" />
+            <div class="card-body">
+              <h3 class="text-danger">Black Pasta</h3>
+              <br />
+              <h6>
+                Savory black pasta with veggies and mushrooms, a flavorful twist
+                on a classic dish.
+              </h6>
+              <div class="rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="fw-bolder">
+                $55 <i class="bi bi-credit-card text-danger float-end"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card h-100">
+            <img src="./images/lamb_chops.jpeg" />
+            <div class="card-body">
+              <h3 class="text-danger fs-3">Lamb Chops</h3>
+              <br />
+              <h6>
+                Juicy, flavorful lamb cuts, expertly grilled for an exquisite
+                taste experience.
+              </h6>
+              <br />
+              <div class="rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="fw-bolder">
+                $35 <i class="bi bi-credit-card text-danger float-end"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="./images/sushi_bowl.jpeg" />
+            <div class="card-body">
+              <h3 class="text-danger">
+                Salmon Avocado <br />
+                Sushi Plate
+              </h3>
+              <h6>
+                Fresh salmon, creamy avocado, and vibrant greens on a plate.
+              </h6>
+              <div class="rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="fw-bolder">
+                $30 <i class="bi bi-credit-card text-danger float-end"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="./images/beef_steak.jpeg" />
+            <div class="card-body">
+              <h3 class="text-danger">Beef Steak</h3>
+              <br />
+              <h6>
+                Grilled beef, bursting with flavor, served with sides for a
+                satisfying meal.
+              </h6>
+              <br />
+              <div class="rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="fw-bolder">
+                $50 <i class="bi bi-credit-card text-danger float-end"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="./images/mussel_soup.jpeg" />
+            <div class="card-body">
+              <h3 class="text-danger">Mussel Soup</h3>
+              <br />
+              <h6>
+                A savory broth with tender mussels and fresh vegetables,
+                offering a symphony of sea flavors.
+              </h6>
+              <div class="rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="fw-bolder">
+                $25 <i class="bi bi-credit-card text-danger float-end"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card h-100">
+            <img src="./images/shrimp_rolls.jpeg" />
+            <div class="card-body">
+              <h3 class="text-danger fs-3">Shrimp Spaghetti Rolls</h3>
+              <br />
+              <h6>
+                Grilled shrimp on black spaghetti spirals with green beans.
+              </h6>
+              <br />
+              <div class="rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="fw-bolder">
+                $28 <i class="bi bi-credit-card text-danger float-end"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- line -->
+    <div class="container">
+      <div
+        class="line w-100"
+        style="height: 2px; background-color: #e53937"
+      ></div>
+    </div>
+
+    <!-- our menu -->
+    <section class="menu" id="menu">
+      <h3>Fast Food Service</h3>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="./images/deluxe_burger.jpeg" />
+            <div class="card-body">
+              <h3 class="text-danger">Burger Royale</h3> <br>
+              <h6>
+                Indulge in regal flavors with premium beef, artisanal cheese,
+                and handcrafted sauces nestled in brioche buns, fit for royalty.
+              </h6>
+              <div class="rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="fw-bolder">
+                $22 <i class="bi bi-credit-card text-danger float-end"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="./images/delight_pizza.jpeg" />
+            <div class="card-body">
+              <h3 class="text-danger">Mediterranean Delight Pizza</h3>
+              <h6>
+                Experience the Mediterranean with sun-drenched tomatoes, herbs, and creamy feta atop a golden crust.
+              </h6>
+              <div class="rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="fw-bolder">
+                $20 <i class="bi bi-credit-card text-danger float-end"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="./images/fiesta_tacos.jpeg" />
+            <div class="card-body">
+              <h3 class="text-danger">Savory Fiesta Tacos</h3> <br>
+              <h6>
+                Enjoy a Mexican fiesta with slow-cooked meats, zesty salsa,
+                fresh vegetables, and artisanal cheese in handcrafted tortillas.
+              </h6>
+              <div class="rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="fw-bolder">
+                $15 <i class="bi bi-credit-card text-danger float-end"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100">
+            <img src="./images/legendary_sandwich.jpeg" />
+            <div class="card-body">
+              <h3 class="text-danger">Legendary Sandwich</h3> <br>
+              <h6>
+                Elevate lunchtime with succulent meats, crisp veggies, and
+                artisanal spreads between freshly baked bread slices.
+              </h6>
+              <div class="rating">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <p class="fw-bolder">
+                $18 <i class="bi bi-credit-card text-danger float-end"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- order-section -->
+    <section class="order" id="order">
+      <div class="text-center fs-2 fw-bolder mb-4">
+        Order Your <span class="text-danger">Food</span>
+      </div>
+
+      <div class="row">
+        <div class="col-md-5 py-3 py-md-0">
+          <div class="card mt-3">
+            <img src="./images/woman_ordering.jpeg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-7 py-3 py-md-0">
+          <form>
+            <div class="mb-3 mt-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Name"
+                required
+              />
+            </div>
+            <div class="mb-3 mt-3">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="mb-3 mt-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Number"
+                required
+              />
+            </div>
+            <textarea
+              rows="5"
+              class="form-control"
+              id="comment"
+              placeholder="Address"
+            ></textarea>
+
+            <button class="btn btn-danger mt-3" type="submit">Order Now</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section -->
+    <section class="review" id="review">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card border border-danger">
+            <img src="./images/chef.jpeg" />
+          </div>
+        </div>
+
+        <div class="col-md-8 mt-md-0 mt-5 px-5">
+          <h3 class="text-danger">WHAT THEY SAY</h3>
+          <h2 class="fw-bolder">What Our Customers Say About Us</h2>
+          <p>
+            Indulge in culinary excellence unlike any other. Our guests rave about the bold flavors, impeccable presentation, and exceptional service that define our dining experience.
+          </p>
+          <h5 class="d-inline-block mb-3">
+            <img src="./images/rebecca.jpeg" width="60px" class="rounded-3" /><a
+              href=""
+              class="text-decoration-none ms-3 text-black"
+              >Rebecca Smith</a
+            >
+          </h5>
+          <h5>
+            <img src="./images/michael.jpeg" width="60px" class="rounded-3" /><a
+              href=""
+              class="text-decoration-none ms-3 text-black"
+              >Michael Johnson</a
+            >
+          </h5>
+          <div class="rating">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact-section -->
+    <section class="contact" id="contact">
+      <div class="fs-1 text-center fw-bolder">
+        Contact <span class="text-danger">us</span>
+      </div>
+      <div class="row">
+        <div class="col-md-5 mt-3 bg-danger text-white p-3 rounded-3 pb-5">
+          <h3 class="mt-2">Let's Get In Touch</h3>
+          <p>
+            We're here for you! Reach out with any questions, feedback, or just to say hello. We value your input and look forward to connecting with you!
+          </p>
+          <i class="bi bi-telephone-fill"
+            ><span class="m-3">+1 000000 0000</span></i
+          >
+          <br />
+          <i class="bi bi-envelope"><span class="m-3">info@mail.com</span></i>
+          <br />
+          <i class="bi bi-geo-alt-fill"><span class="m-3">USA</span></i>
+        </div>
+        <div class="col-md-7">
+          <form class="mt-3">
+            <div class="mb-3 mt-3">
+              <input type="text" class="form-control" placeholder="Name" />
+            </div>
+            <div class="mb-3 mt-3">
+              <input type="email" class="form-control" placeholder="Email" />
+            </div>
+            <div class="mb-3 mt-3">
+              <input type="tel" class="form-control" placeholder="Tel" />
+            </div>
+
+            <textarea
+              rows="5"
+              class="form-control"
+              id="comment"
+              placeholder="Address"
+            ></textarea>
+            <button class="btn btn-danger mt-3">Order Now</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="f-content text-center">
+        <div class="logo"><img src="./images/logo_og.png" /></div>
+        <p>
+          Thank you for joining us on this culinary journey. From our kitchen to your table, we hope each bite brings joy and satisfaction. Follow us on social media to stay updated on our latest creations and events. Bon appétit!
+        </p>
+        <i class="bi bi-facebook fs-4 p-2 rounded-3"></i>
+        <i class="bi bi-twitter fs-4 p-2 rounded-3"></i>
+        <i class="bi bi-instagram fs-4 p-2 rounded-3"></i>
+        <i class="bi bi-youtube fs-4 p-2 rounded-3"></i>
+        <div class="content mt-3">
+          &copy;
+          <span class="fs-6"
+            >Copyright LuxeTasteAtlas. All Rights Reserved Designed By
+            <a href="" class="text-danger">LuxeTasteAtlas</a></span
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- bs js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
